@@ -39,7 +39,7 @@ int main(void) {
    return 0;
 }
 ### 结果截图
-![这是图片]("C:\Users\DELL\Desktop\nosync.png" "nosync")
+![这是图片]( "nosync")
 ## mutex-ex
 ### 代码
 #include <stdio.h>  
