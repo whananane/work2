@@ -58,14 +58,14 @@ int main(void) {
     pthread_t tid1, tid2;  
     pthread_mutex_init(&mutex, NULL);  
     pthread_create(&tid1, NULL, thread, NULL);  
-    pthread_create(&tid2, NULL, thread, NULL);  
-    pthread_join(tid1, NULL);  
-    pthread_join(tid2, NULL);  
-    printf("1000000 + 1000000 = %d\n", sum);  
-    return (0);  
+    pthread_create(&tid2, NULL, thread, NULL);
+    pthread_join(tid1, NULL);
+    pthread_join(tid2, NULL);
+    printf("1000000 + 1000000 = %d\n", sum);
+    return (0);
 }
 ### 结果截图
-![这是图片](https://github.com/whananane/work2/blob/main/mutex.png" "mutex")  
+![这是图片](https://github.com/whananane/work2/blob/main/mutex.png "mutex")  
 ## sem-ex
 ### 代码
 #include <stdio.h>  
