@@ -39,7 +39,7 @@ int main(void) {
    return 0;
 }
 ### 结果截图
-![这是图片]( "nosync")
+![这是图片]( https://github.com/whananane/work2/blob/main/nosync.png "nosync")
 ## mutex-ex
 ### 代码
 #include <stdio.h>  
@@ -65,7 +65,7 @@ int main(void) {
     return (0);  
 }
 ### 结果截图
-![这是图片](""C:\Users\DELL\Desktop\mutex.png"" "mutex")  
+![这是图片](https://github.com/whananane/work2/blob/main/mutex.png" "mutex")  
 ## sem-ex
 ### 代码
 #include <stdio.h>  
@@ -92,7 +92,7 @@ int main(void) {
     return (0);  
 }  
 ### 结果截图
-![这是图片](""C:\Users\DELL\Desktop\sem-ex.png"" "sem-ex") 
+![这是图片](https://github.com/whananane/work2/blob/main/sem-ex.png "sem-ex") 
 ## 生产者消费者问题
 #include <stdio.h>  
 #include <stdlib.h>  
@@ -184,5 +184,5 @@ int main() {
    return 0;  
 }  
 ### 结果截图
-![这是图片](""C:\Users\DELL\Desktop\inducer1.png"" "inducer1")
-![这是图片](""C:\Users\DELL\Desktop\inducer2.png"" "inducer2") 
+![这是图片](https://github.com/whananane/work2/blob/main/inducer2.png "inducer1")
+![这是图片](https://github.com/whananane/work2/blob/main/inducer1.png "inducer2") 
